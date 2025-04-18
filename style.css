@@ -1,0 +1,44 @@
+html,body{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+	background: rgb(21, 34, 47);
+	background-size: cover;
+	transition: background 1s;
+}
+
+nav{
+	display: block;
+	padding: 1em;
+	border: 3px solid #000;
+	margin: 0;
+}
+
+nav	a{
+	display: inline-block;
+	padding: 1em;
+	margin-left: 1em;
+	font-size: 1.5em;
+	border: 3px solid #fff;
+	background: #333;
+	color: #fff;
+}
+
+nav	a:hover{
+	border-color: #333;
+	background: #fff;
+	color: #333;
+}
+
+.alpha{
+	background-image: url(img/bg1.jpg);
+}
+.bravo{
+	background-image: url(img/bg2.jpg);
+}
+.charlie{
+	background-image: url(img/bg3.jpg);
+}
